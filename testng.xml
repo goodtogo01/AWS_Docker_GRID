@@ -5,7 +5,7 @@
 <listener class-name="com.Analyzer.Transformations"></listener>
 
 </listeners>
-<!-- 
+
   	 <test name= "DeshBoardHomeTest" parallel="classes" thread-count="3">
 		<parameter name="browser" value="edge" />
 		<classes>
@@ -16,9 +16,9 @@
 				</methods>
 			</class>
 		</classes>
-	</test>   -->
+	</test>  
 	
-<!-- <test name="DeshBoardOrder" parallel="classes" thread-count="7">
+ <test name="DeshBoardOrder" parallel="classes" thread-count="7">
 		<parameter name="browser" value="firefoox" />
 		<classes>
 			<class name="com.Tests.DeshBoardOrderTest">
@@ -48,7 +48,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test> -->
+	</test> 
 
 	<test name="Login Page" parallel="classes" thread-count="4">
 		<parameter name="browser" value="chrome" />
