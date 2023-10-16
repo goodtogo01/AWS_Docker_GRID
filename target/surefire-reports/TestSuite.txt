@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 402.697 s <<< FAILURE! - in TestSuite
+com.Tests.LoginPageTest.pageTitleTest  Time elapsed: 0.087 s  <<< FAILURE!
+java.lang.AssertionError: Title is missing!! expected [RobotSpareBin Industries Inc.. - Intranet] but found [RobotSpareBin Industries Inc. - Intranet]
+	at com.Tests.LoginPageTest.pageTitleTest(LoginPageTest.java:30)
+

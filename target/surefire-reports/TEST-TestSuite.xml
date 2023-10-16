@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="402.697" tests="21" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\zaman\eclipse-workspace\Doker_Robotic\target\test-classes;C:\Users\zaman\eclipse-workspace\Doker_Robotic\target\classes;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\zaman\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\zaman\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\zaman\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\zaman\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\zaman\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\zaman\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\zaman\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\zaman\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\zaman\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\zaman\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\zaman\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\zaman\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\zaman\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\zaman\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\zaman\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\zaman\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\zaman\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\zaman\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\zaman\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\zaman\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\zaman\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\zaman\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\zaman\AppData\Local\Temp\surefire14902885983671176344\surefirebooter17417493262086560153.jar C:\Users\zaman\AppData\Local\Temp\surefire14902885983671176344 2023-10-09T21-48-04_702-jvmRun1 surefire1332284146444897671tmp surefire_08155670965095841330tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\zaman\eclipse-workspace\Doker_Robotic\target\test-classes;C:\Users\zaman\eclipse-workspace\Doker_Robotic\target\classes;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\zaman\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\zaman\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\zaman\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\zaman\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\zaman\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\zaman\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\zaman\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\zaman\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\zaman\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\zaman\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\zaman\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\zaman\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\zaman\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\zaman\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\zaman\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\zaman\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\zaman\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\zaman\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\zaman\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\zaman\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\zaman\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\zaman\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\zaman\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\zaman\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zaman"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\zaman\eclipse-workspace\Doker_Robotic"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\zaman\AppData\Local\Temp\surefire14902885983671176344\surefirebooter17417493262086560153.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="user.name" value="zaman"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\zaman\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\zaman\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="C:\Users\zaman\eclipse-workspace\Doker_Robotic"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Ruby32-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MAVEN\apache-maven-3.8.8\bin;C:\Program Files\MAVEN\allure-2.24.0\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\usr\bin;C:\Users\zaman\AppData\Local\Microsoft\WindowsApps;C:\Users\zaman\AppData\Roaming\npm;C:\Users\zaman\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="pageTitleTest" classname="com.Tests.DeshBoardHomeTest" time="0.066">
+    <system-out><![CDATA[Page Title is : RobotSpareBin Industries Inc. - Intranet
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 09, 2023 9:48:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="salseDataTest[Khsoruz, Zaman, 3255.0](1)" classname="com.Tests.DeshBoardHomeTest" time="3.819">
+    <system-out><![CDATA[3 Row's and ================= 3 Column === 
+Khsoruz, Zaman, 3255.0, Miraz, Zaman, 2561.0, Liza, Khanom, 954.0, The Login is succeed
+Name Target Result Difference
+Khsoruz Zaman $5,000 $3,255 $-1,745
+Boss Message for salse performance:- Well. It was a nice attempt. I guess?
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:48:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="salseDataTest[Miraz, Zaman, 2561.0](2)" classname="com.Tests.DeshBoardHomeTest" time="4.931">
+    <system-out><![CDATA[The Login is succeed
+Name Target Result Difference
+Miraz Zaman $5,000 $2,561 $-2,439
+Boss Message for salse performance:- Well. It was a nice attempt. I guess?
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:48:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="salseDataTest[Liza, Khanom, 954.0](3)" classname="com.Tests.DeshBoardHomeTest" time="2.779">
+    <system-out><![CDATA[The Login is succeed
+Name Target Result Difference
+Liza Khanom $5,000 $954 $-4,046
+Boss Message for salse performance:- The boss wants to see you...
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:49:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="pageTitleTest" classname="com.Tests.DeshBoardOrderTest" time="1.087">
+    <system-out><![CDATA[The Login is succeed
+Page Title is : RobotSpareBin Industries Inc. - Intranet
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:49:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="orderManueTest" classname="com.Tests.DeshBoardOrderTest" time="1.018">
+    <system-out><![CDATA[The Login is succeed
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:49:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="heasdSelectionTest" classname="com.Tests.DeshBoardOrderTest" time="3.54">
+    <system-out><![CDATA[The Login is succeed
+We are on the section number : 1. Head:
+Available Item in the list is : 
+Roll-a-thor head
+Peanut crusher head
+D.A.V.E head
+Andy Roid head
+Spanner mate head
+Drillbit 2000 head
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:49:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+Selected Head is : D.A.V.E head
+
+]]></system-err>
+  </testcase>
+  <testcase name="bodySelectionTest" classname="com.Tests.DeshBoardOrderTest" time="2.166">
+    <system-out><![CDATA[The Login is succeed
+We are on 2. Body:
+Roll-a-thor body
+Peanut crusher body
+D.A.V.E body
+Andy Roid body
+Spanner mate body
+Drillbit 2000 body
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:50:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+Selected Body is : Peanut crusher body
+
+]]></system-err>
+  </testcase>
+  <testcase name="legsSelectionTest" classname="com.Tests.DeshBoardOrderTest" time="1.309">
+    <system-out><![CDATA[The Login is succeed
+We are on : 3. Legs:
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:50:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Total Lags count for this robot is : 2
+
+]]></system-err>
+  </testcase>
+  <testcase name="shippingAddress[508 winfield Ave, Upper darby, PA, 19082](1)" classname="com.Tests.DeshBoardOrderTest" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;receipt&apos;]&quot;}&#10;  (Session info: chrome=119.0.6045.10)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;KHOSRUZ&apos;, ip: &apos;192.168.0.26&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.10, chrome: {chromedriverVersion: 119.0.6045.9 (c7ec5863fa5c5..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 119.0.6045.10, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 43bac9337ea52e49488d89344c0afd42&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;receipt&apos;]}"/>
+    <system-out><![CDATA[1 Row's and ================= 1 Column === 
+508 winfield Ave, Upper darby, PA, 19082, The Login is succeed
+We are on the section number : 1. Head:
+Available Item in the list is : 
+Roll-a-thor head
+Peanut crusher head
+D.A.V.E head
+Andy Roid head
+Spanner mate head
+Drillbit 2000 head
+We are on 2. Body:
+Roll-a-thor body
+Peanut crusher body
+D.A.V.E body
+Andy Roid body
+Spanner mate body
+Drillbit 2000 body
+We are on : 3. Legs:
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:50:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+Selected Head is : D.A.V.E head
+
+
+Selected Body is : Peanut crusher body
+
+Total Lags count for this robot is : 2
+
+Robot is created : true
+]]></system-err>
+  </testcase>
+  <testcase name="shippingAddress[508 winfield Ave, Upper darby, PA, 19082](2)" classname="com.Tests.DeshBoardOrderTest" time="8.223">
+    <system-out><![CDATA[1 Row's and ================= 1 Column === 
+508 winfield Ave, Upper darby, PA, 19082, The Login is succeed
+We are on the section number : 1. Head:
+Available Item in the list is : 
+Roll-a-thor head
+Peanut crusher head
+D.A.V.E head
+Andy Roid head
+Spanner mate head
+Drillbit 2000 head
+We are on 2. Body:
+Roll-a-thor body
+Peanut crusher body
+D.A.V.E body
+Andy Roid body
+Spanner mate body
+Drillbit 2000 body
+We are on : 3. Legs:
+
+Final Receipts of order: Receipt
+2023-10-10T01:51:44.781Z
+RSB-ROBO-ORDER-J3JRILDLJW
+508 winfield Ave, Upper darby, PA, 19082
+Head: 3
+Body: 2
+Legs: 2
+Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!
+
+Back To Order Roobot Page. 
+Text Found as : Build and order your robot!
+
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:51:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+Selected Head is : D.A.V.E head
+
+
+Selected Body is : Peanut crusher body
+
+Total Lags count for this robot is : 2
+
+Robot is created : true
+]]></system-err>
+  </testcase>
+  <testcase name="pageTitleTest" classname="com.Tests.HomePageTest" time="0.041">
+    <system-out><![CDATA[Page Title is : RobotSpareBin Industries Inc. - Intranet
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:52:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="homePageText" classname="com.Tests.HomePageTest" time="0.126">
+    <system-out><![CDATA[Expected Text found: Hey! Wait a minute... What is this site?
+This is a demonstration site built by Robocorp. We use it for demos and our learning courses. Think about it as a gym for Software Robots!
+You are absolutely free to play around with it. Mind you, sometimes it's intentionally a bit buggy! 😅
+If this sounds interesting, visit us to learn how to make your own Software Robots!
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:52:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="orderButtonTest" classname="com.Tests.HomePageTest" time="0.167">
+    <system-out><![CDATA[Order button is appear correctly: true
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:52:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginButtonTest" classname="com.Tests.HomePageTest" time="0.199">
+    <system-out><![CDATA[Login button is appear correctly: true
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:52:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="homeButtonTest" classname="com.Tests.HomePageTest" time="0.316">
+    <system-out><![CDATA[Home button is appear correctly: true
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:53:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="pageTitleTest" classname="com.Tests.LoginPageTest" time="0">
+    <skipped message="Title is missing!! expected [RobotSpareBin Industries Inc.. - Intranet] but found [RobotSpareBin Industries Inc. - Intranet]"/>
+    <system-err><![CDATA[Oct 09, 2023 9:53:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="pageTitleTest" classname="com.Tests.LoginPageTest" time="0">
+    <skipped message="Title is missing!! expected [RobotSpareBin Industries Inc.. - Intranet] but found [RobotSpareBin Industries Inc. - Intranet]"/>
+    <system-err><![CDATA[Oct 09, 2023 9:53:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="pageTitleTest" classname="com.Tests.LoginPageTest" time="0.087">
+    <failure message="Title is missing!! expected [RobotSpareBin Industries Inc.. - Intranet] but found [RobotSpareBin Industries Inc. - Intranet]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Title is missing!! expected [RobotSpareBin Industries Inc.. - Intranet] but found [RobotSpareBin Industries Inc. - Intranet]
+	at com.Tests.LoginPageTest.pageTitleTest(LoginPageTest.java:30)
+]]></failure>
+    <system-err><![CDATA[Oct 09, 2023 9:53:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="displayNameTest" classname="com.Tests.LoginPageTest" time="2.625">
+    <system-out><![CDATA[The Login is succeed
+Display name found as : maria
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:54:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.Tests.LoginPageTest" time="1.014">
+    <system-out><![CDATA[The Login is succeed
+]]></system-out>
+    <system-err><![CDATA[Oct 09, 2023 9:54:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
